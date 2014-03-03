@@ -1,0 +1,23 @@
+{
+  "name": "Filepilvi",
+  "version": "0.0.1",
+  "description": "File locker service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattipulli/filepilvi"
+  },
+  "keywords": [
+    "node",
+    "projekti"
+  ],
+  "author": "Matti Pulli",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/mattipulli/filepilvi/issues"
+  },
+  "homepage": "https://github.com/mattipulli/filepilvi"
+}
