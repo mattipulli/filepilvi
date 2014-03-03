@@ -1,7 +1,5 @@
 
-Filepilvi - Tiedostonjakosofta
+Filepilvi - Tiedostonkryptaussofta
 --------------------------------
 
-- Tiedostoja voi l‰hett‰‰
-- Tiedostoja voi ladata
-- Kaikki tiedostot kryptataan (Mik‰li mahdollista)
+- Tiedosto kryptataan serverill‰ ja l‰hetet‰‰n takaisin
