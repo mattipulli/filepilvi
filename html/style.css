@@ -1,0 +1,20 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	width:100%;
+	height:100%;
+}
+
+#keski{
+	margin:auto;
+	width:900px;
+}
+
+.floater{
+	padding:30px;
+	float:left;
+	background-color:rgb(245,245,245);
+}

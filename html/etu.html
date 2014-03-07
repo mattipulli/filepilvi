@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Filepilvi</title>
+<style>
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	width:100%;
+	height:100%;
+}
+
+#keski{
+	position:absolute;
+	top:50%;
+	margin-top:-100px;
+	left:50%;
+	margin-left:-420px;
+	width:840px;
+}
+
+.floater{
+	width:400px;
+	height:200px;
+	margin:10px;
+	float:left;
+	background-color:rgb(245,245,245);
+	box-shadow:0px 0px 15px rgb(200,200,200);
+}	
+
+.key{
+	border-style:solid;
+	border-width:1px;
+	border-color:rgb(200,200,200);
+	height:30px;
+	width:90%;
+	text-align:center;
+}
+.button {
+   background-image: -webkit-linear-gradient(top, rgba(230,230,230,1) 71%,rgba(200,200,200,1) 100%);
+   background-image:    -moz-linear-gradient(top, rgba(230,230,230,1) 71%,rgba(200,200,200,1) 100%);
+   background-image:     -ms-linear-gradient(top, rgba(230,230,230,1) 71%,rgba(200,200,200,1) 100%);
+   background-image:      -o-linear-gradient(top, rgba(230,230,230,1) 71%,rgba(200,200,200,1) 100%);
+   background-image:         linear-gradient(top, rgba(230,230,230,1) 71%,rgba(200,200,200,1) 100%);
+   -webkit-box-shadow: 0px 0px 6px 2px rgba(235,235,235,1);
+      -moz-box-shadow: 0px 0px 6px 2px rgba(235,235,235,1);
+           box-shadow: 0px 0px 6px 2px rgba(235,235,235,1);
+   border: solid 1px rgba(230,230,230,1);
+   padding: 13px;
+   width:100%;
+   display: inline-block;
+   font-size: 17px;
+   color: rgba(92,87,92,1);
+   bottom:0;
+}
+.button:hover {
+}
+.button:active {
+}
+.inner{
+	width:100%;
+	height:100%;
+	text-align:center;
+	margin-top:20px;
+	bottom:0;
+}
+</style>
+</head>
+<body>
+
+<div id="keski">
+	<div class="floater">
+		<div class="inner">
+			<form action="./encrypt" enctype="multipart/form-data" method="post">
+				<input onclick="key_value(this)" class="key" value="Key" type="text" id="enkey" name="key"><br><br/>
+				<input type="file" name="upload" multiple="multiple"><br><br/>
+				<input class="button" type="submit" value="Encrypt">
+			</form>
+		</div>
+	</div>
+
+	<div class="floater">
+		<div class="inner">
+			<form action="./decrypt" enctype="multipart/form-data" method="post">
+				<input onclick="key_value(this);" class="key"  value="Key" type="text" id="dekey" name="key"><br><br/>
+				<input type="file" name="upload" multiple="multiple"><br><br/>
+				<input class="button" type="submit" value="Decrypt">
+			</form>
+		</div>
+	</div>
+	<div style="clear:both"></div>
+</div>
+
+<script>
+
+document.getElementById('enkey').value="Key";
+document.getElementById('dekey').value="Key";
+
+function key_value(input){
+	if(input.value==="Key"){
+		input.value='';
+	}
+}
+
+</script>
+</body>
+</html> 
