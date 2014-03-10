@@ -25,3 +25,13 @@ PÄIVÄKIRJA
 6.3.2014 16:00
 - Sovellus osaa ladata tiedostoja palvelimelle, ja kryptata niitä annetulla avaimella.
 
+7.3.2014 08:00
+- Virheiden metsästystä. Paikkakohtaista testailua.
+
+7.3.2014 12:00
+- Toimiiko lähetys ja lataus? Näyttäisi toimivan.
+
+8.3.2013 15:00
+- Kirjoittelen automaattista testausalustaa, joka lähettelee tiedostoja ja katsoo, toimiiko softa kunnolla. Serveripuoli näyttäisi olevan ns. valmis.
+
+
