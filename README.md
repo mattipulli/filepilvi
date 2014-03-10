@@ -2,7 +2,11 @@
 Filepilvi - Tiedostonkryptaussofta
 --------------------------------
 
-- Tiedosto kryptataan serverillä ja lähetetään takaisin
+- Tiedosto kryptataan/puretaan serverillä ja lähetetään takaisin.
+
+TESTAAMINEN
+--------------------------------
+Aja test-hakemistosta löytyvä tests.sh
 
 PÄIVÄKIRJA
 --------------------------------
@@ -33,5 +37,8 @@ PÄIVÄKIRJA
 
 8.3.2013 15:00
 - Kirjoittelen automaattista testausalustaa, joka lähettelee tiedostoja ja katsoo, toimiiko softa kunnolla. Serveripuoli näyttäisi olevan ns. valmis.
+
+10.3.2013 10:40
+- Testausskripti on nyt valmis.
 
 

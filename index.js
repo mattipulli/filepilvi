@@ -15,6 +15,7 @@ fs.readFile('html/etu.html', function (err, data) {
     index = data;
 });
 
+
 server = http.createServer(function(req, res) {
   if (req.url == '/') {
     res.writeHead(200, {'content-type': 'text/html'});
@@ -44,6 +45,10 @@ server = http.createServer(function(req, res) {
 		res.writeHead(404, {'content-type': 'text/plain'});
 		res.end('404');
   }
+  
+	process.on('uncaughtException', function (err) {
+		res.end("Wrong key?");
+	});
 });
 server.listen(3333);
 
