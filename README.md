@@ -1,44 +1,43 @@
-
 Filepilvi - Tiedostonkryptaussofta
 --------------------------------
 
-- Tiedosto kryptataan/puretaan serverillä ja lähetetään takaisin.
+- Tiedosto kryptataan/puretaan serverillï¿½ ja lï¿½hetetï¿½ï¿½n takaisin.
 
 TESTAAMINEN
 --------------------------------
-Aja test-hakemistosta löytyvä tests.sh
+Aja test-hakemistosta lï¿½ytyvï¿½ tests.sh
 
-PÄIVÄKIRJA
+Pï¿½IVï¿½KIRJA
 --------------------------------
 
-6.3.2014 08:00
+6.3.2014 08:00-09:30
 - Aloitin vihdoin projektin tekemisen.
 
-6.3.2014 08:30
-- Hiukan ongelmia moduulien kanssa. En ole koskaan käyttänyt Nodea, joten pitää hiukan opetella ensin.
+6.3.2014 08:30-12:00
+- Hiukan ongelmia moduulien kanssa. En ole koskaan kï¿½yttï¿½nyt Nodea, joten pitï¿½ï¿½ hiukan opetella ensin.
 
-6.3.2014 12:00
-- Oikeat moduulit löytyneet. Siirryn testailemaan niitä hiukan.
+6.3.2014 12:00-13:30
+- Oikeat moduulit lï¿½ytyneet. Siirryn testailemaan niitï¿½ hiukan.
 
-6.3.2014 13:00
-- Testejä tehty. Sovellus osaa nyt ladata tavaraa palvelimelle
+6.3.2014 13:00-15:00
+- Testejï¿½ tehty. Sovellus osaa nyt ladata tavaraa palvelimelle
 
-6.3.2014 14:40
-- Kryptaustestejä tehty. Moduulion ilmeisen hyvä ja yksinkertainen tällaiseen tarkoitukseen.
+6.3.2014 14:40-17:00
+- Kryptaustestejï¿½ tehty. Moduulion ilmeisen hyvï¿½ ja yksinkertainen tï¿½llaiseen tarkoitukseen.
 
-6.3.2014 16:00
-- Sovellus osaa ladata tiedostoja palvelimelle, ja kryptata niitä annetulla avaimella.
+6.3.2014 16:00-18:00
+- Sovellus osaa ladata tiedostoja palvelimelle, ja kryptata niitï¿½ annetulla avaimella.
 
-7.3.2014 08:00
-- Virheiden metsästystä. Paikkakohtaista testailua.
+7.3.2014 08:00-12:00
+- Virheiden metsï¿½stystï¿½. Paikkakohtaista testailua.
 
-7.3.2014 12:00
-- Toimiiko lähetys ja lataus? Näyttäisi toimivan.
+7.3.2014 12:00-13:00
+- Toimiiko lï¿½hetys ja lataus? Nï¿½yttï¿½isi toimivan.
 
-8.3.2013 15:00
-- Kirjoittelen automaattista testausalustaa, joka lähettelee tiedostoja ja katsoo, toimiiko softa kunnolla. Serveripuoli näyttäisi olevan ns. valmis.
+8.3.2013 15:00-19:00
+- Kirjoittelen automaattista testausalustaa, joka lï¿½hettelee tiedostoja ja katsoo, toimiiko softa kunnolla. Serveripuoli nï¿½yttï¿½isi olevan ns. valmis.
 
-10.3.2013 10:40
+10.3.2013 08:00-10:40
 - Testausskripti on nyt valmis.
 
 
